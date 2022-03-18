@@ -212,7 +212,7 @@ export const deploy = async ({ yes, bucket, userAgent }: DeployArguments = {}) =
                         Suffix: 'index.html',
                     },
                     ErrorDocument: {
-                        Key: '404.html',
+                        Key: 'app/index.html',
                     },
                 },
             };
